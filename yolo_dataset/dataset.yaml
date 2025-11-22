@@ -1,11 +1,7 @@
-path: ./yolo_dataset
+path: ./yolo_dataset/
 
-# Train/val image paths (relative to 'path')
 train: images/train
 val: images/val
 
-# Class names (order MUST match the class IDs you assigned: 0, 1, 2)
-names:
-  0: fist
-  1: palm
-  2: other
+nc: 3  
+names: ['fist', 'palm', 'others'] 
