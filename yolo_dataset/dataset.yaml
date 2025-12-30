@@ -1,7 +1,0 @@
-path: ./yolo_dataset/
-
-train: images/train
-val: images/val
-
-nc: 3  
-names: ['fist', 'palm', 'others'] 
